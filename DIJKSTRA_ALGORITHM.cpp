@@ -2,7 +2,7 @@
 using namespace std;
 
 vector<vector<pair<int, int>>> graph;
-priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq; // Mean Heap
+priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq; // Min Heap
 
 int main()
 {
